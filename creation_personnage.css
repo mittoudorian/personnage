@@ -1,0 +1,55 @@
+body{
+    background-image: url(img/castle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.personnage img{
+    width: 50%;
+}
+.personnage-group{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+fieldset{
+    padding: 50px;
+    border: 2px solid #00000052;
+    text-align: center;
+    background-color: #ffffff52;
+}
+
+fieldset div{
+    padding: 5px;
+}
+legend{
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+
+.submit input{
+    color: #fff;
+    background-color: dodgerblue;
+    font-weight: 600;
+}
+
+.submit input:hover{
+    cursor:pointer;
+    background-color: rgb(8, 130, 252);
+}
+
+input, select{
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    background-color: #fff; 
+}

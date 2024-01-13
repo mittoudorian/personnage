@@ -1,0 +1,19 @@
+body{
+    background-image: url(img/taverne.jpg);
+    padding: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-justify: justify;
+    background-image: url(img/parche.webp);
+    padding: 50px;
+    font-size: 24px;
+}
+
+.content img{
+    width: 50%;
+}

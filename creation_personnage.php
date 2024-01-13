@@ -2,11 +2,18 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="creation_personnage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <div class="personnage-group">
+        <div class="personnage">
+            <img id="perso" alt="Personnage image">
+        </div>
     <form method="POST" action="personnage.php">
+
         <fieldset>
             <legend>Création de personnage</legend>
             <div class="nom-form">
@@ -14,10 +21,10 @@
 
             </div>
             <div class="race-form">
-                <input type="radio" name="frace" value="Humain" checked="checked"><label>Humain</label><br>
-                <input type="radio" name="frace" value="Elfe"><label>Elfe</label><br>
-                <input type="radio" name="frace" value="Ogre"><label>Ogre</label><br>
-                <input type="radio" name="frace" value="Nain"><label>Nain</label>
+                <input type="radio" id="r1" name="frace" value="Humain" checked="checked"><label>Humain</label><br>
+                <input type="radio" id="r2" name="frace" value="Elfe"><label>Elfe</label><br>
+                <input type="radio" id="r3" name="frace" value="Ogre"><label>Ogre</label><br>
+                <input type="radio" id="r4" name="frace" value="Nain"><label>Nain</label>
             </div>
 
             <div class="classe-form" name="classe">
@@ -47,5 +54,7 @@
             </div>
         </fieldset>
     </form>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
